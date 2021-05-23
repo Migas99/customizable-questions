@@ -1,0 +1,27 @@
+Title: Question 1
+TipoPerg: QuestionMultipleChoice
+Question: The ability of an object to take on many forms is:
+Mark: 5.0
+Acertou: true
+Title: Question 2
+TipoPerg: QuestionMultipleChoice
+Question: The bundling of data with the methods that operate on that data is:
+Mark: 5.0
+Acertou: true
+Title: Question 3
+TipoPerg: QuestionYesNo
+Question: Object Oriented Programming is exclusive to the JAVA programming language
+Mark: 5.0
+Acertou: true
+Title: Question 4
+TipoPerg: QuestionNumeric
+Question: How many programming languages are taught in Paradigmas de Programação?
+Mark: 5.0
+Acertou: true
+Classificação: Excelente
+MedTempPorPerg: 3.90476691523E11
+MedDesvPorPerg: 1.9523834598675E12
+NumRespCor: 4
+NumRespErr: 0
+PercRespCor: 100.0
+PercRespErr: 0.0

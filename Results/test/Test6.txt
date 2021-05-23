@@ -1,0 +1,22 @@
+Title: Questão 1
+TipoPerg: QuestionMultipleChoice
+Question: Qual é a montanha mais alta do Mundo?
+Mark: 5.0
+Acertou: true
+Title: Questão 2
+TipoPerg: QuestionYesNo
+Question: Foi no ano 1143 que Portugal 'nasceu'?
+Mark: 5.0
+Acertou: true
+Title: Questão 3
+TipoPerg: QuestionNumeric
+Question: Qual é a raiz quadrada de 36?
+Mark: 5.0
+Acertou: true
+Classificação: Excelente
+MedTempPorPerg: 5.20635724373E11
+MedDesvPorPerg: 2.0825428995173335E12
+NumRespCor: 3
+NumRespErr: 0
+PercRespCor: 100.0
+PercRespErr: 0.0

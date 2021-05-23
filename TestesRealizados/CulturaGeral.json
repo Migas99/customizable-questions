@@ -1,0 +1,35 @@
+[
+  {
+    "type": "MultipleChoice",
+    "question": {
+      "title": "Questão 1",
+      "question_description": "Qual é a montanha mais alta do Mundo?",
+      "mark": 5.0,
+      "options": [
+        "Monte Everest",
+        "Montanha do Pico",
+        "Serra da Estrela",
+        "Alpes"
+      ],
+      "correct_answer": "Monte Everest"
+    }
+  },
+  {
+    "type": "Numeric",
+    "question": {
+      "title": "Questão 3",
+      "question_description": "Qual é a raiz quadrada de 36?",
+      "mark": 5.0,
+      "correct_answer": 6.0
+    }
+  },
+  {
+    "type": "YesNo",
+    "question": {
+      "title": "Questão 2",
+      "question_description": "Foi no ano 1143 que Portugal foi oficialmente reconhecido?",
+      "mark": 5.0,
+      "correct_answer": "YES"
+    }
+  }
+]

@@ -1,0 +1,15 @@
+Title: Question 1
+Question: The ability of an object to take on many forms is:
+Mark: 5.0
+Acertou: false
+Title: Question 2
+Question: The bundling of data with the methods that operate on that data is:
+Mark: 5.0
+Acertou: false
+Classificação: Não satisfaz
+MedTempPorPerg: 7.80907434308E11
+MedDesvPorPerg: 2.342722304097E12
+NumRespCor: 0
+NumRespErr: 2
+PercRespCor: 0.0
+PercRespErr: 100.0
