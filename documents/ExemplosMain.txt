@@ -1,0 +1,48 @@
+============================================================
+         Exemplos de invocação da interface gráfica
+============================================================
+Nota: A interface gráfica não deve ser utilizada para guiar o 
+desenvolvimento do trabalho. Deve testar convenientemente todo
+o seu código e só após essa validação é que deve utilizar
+a interface gráfica.
+
+============================================================
+Exemplo 1 utilizando o modo de desenvolvimento (DEVELOPMENT)
+============================================================
+Em modo de desenvolvimento, todos os dados são carregados 
+em modo offline. Neste exemplo, os dados foram definidos 
+no método main (a informação também pode ser importada a partir de um ficheiro).
+(...)
+ public static void main(String[] args) {
+
+       App app = new App();
+       app.addGroup("Notícias", "");
+       Feed feed1 = new Feed("http://feeds.jn.pt/JN-Desporto");
+       feed1.setTitle("Exemplo de feed");
+
+       feed1.addItem("Totti anuncia adeus à Roma... 30 anos depois", 
+                "https://www.jn.pt/desporto/interior/totti-anuncia-adeus-a-roma-30-anos-depois-11017581.html", 
+                "O ex-jogador e a maior lenda do clube italiano demite-se do cargo de dirigente devido a problemas com a atual direção.", 
+                Calendar.getInstance(), "Futebol", "Autor1");
+        
+       app.getGroup(0).addFeed(feed1);
+
+       MainFrame gui = new MainFrame(app, ExecutionMode.DEVELOPMENT);
+}
+(...)
+
+============================================================
+Exemplo 2 utilizando o modo de desenvolvimento (PRODUCTION)
+============================================================
+Em modo de desenvolvimento, os grupos são carregados a partir 
+de ficheiro mas todos os dados dos feeds são atualizados a 
+partir da fonte (necessita de ligação à internet).
+
+(...)
+public static void main(String[] args) {
+
+        App app = new App();
+       
+        MainFrame gui = new MainFrame(app, ExecutionMode.PRODUCTION);
+}
+(...)
